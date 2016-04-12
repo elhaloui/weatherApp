@@ -1,0 +1,29 @@
+
+#icon{
+  width: 200px;
+  height: 200px;
+}
+
+body
+{
+font-family: 'Open Sans' ;
+font-size: 20px;
+background-color: #e44646;
+}
+.weather
+{
+  margin: 100px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+#icon
+{
+text-align: center;
+margin: auto;
+}
+.unit{
+  color: #686cda;
+  cursor: pointer;
+}

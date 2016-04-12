@@ -1,8 +1,25 @@
 <html>
 <head>
-
+  <!-- inject Open Sans font -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!-- bootstrap framework -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+<!-- Custom css -->
+<link href="css/main.css" rel="stylesheet" type="text/css" >
+<meta charset="utf-8">
 </head>
 <body>
-<h1>weather App</h1>
+<div class="container-fluid">
+<div class="weather">
+<h1> The weather in your CITY</h1>
+<p><span id="location"></span> </p>
+<p><span id="temperatur"></span> °<span class="unit">C</span> <p>
+<p><span id="status"></span> </p>
+<p>  <img id="icon" class="img-responsive" /> <p>
+
+</div>
+</div>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
