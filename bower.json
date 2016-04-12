@@ -1,0 +1,21 @@
+{
+  "name": "weatherApp",
+  "homepage": "https://github.com/elhaloui/weatherApp",
+  "authors": [
+    "EL HALOUI <elhalouihichamcanvas2012@gmail.com>"
+  ],
+  "description": "display local weather",
+  "main": "index.html",
+  "keywords": [
+    "weather",
+    "local"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
